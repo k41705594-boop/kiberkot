@@ -118,7 +118,10 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
 .foot .r1{border-bottom-color:#262626}
 .foot .r1 span{color:#8a8a8a}
 .foot a.r1:hover,.foot a.r1:hover span{color:var(--red)}
-.legal{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:90px;font-size:13px;color:#8a8a8a}
+.niche{margin:0;padding:8px 0 0;font-family:var(--serif);font-weight:500;font-size:clamp(30px,3.8vw,60px);line-height:1.02;letter-spacing:-.02em}
+.mark{margin-top:110px;font-family:var(--serif);font-weight:500;font-size:clamp(110px,31vw,560px);line-height:.78;letter-spacing:-.045em;white-space:nowrap;text-align:center}
+.mark sup{font-family:var(--sans);font-size:.1em;font-weight:500;vertical-align:2.6em;letter-spacing:0}
+.legal{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:40px;font-size:13px;color:#8a8a8a}
 .legal a{text-decoration:underline;text-underline-offset:3px}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
@@ -168,12 +171,11 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
 
 <section class="block pad" id="process">
   <div class="idx">
-    <div class="k">Как работаем <small>(4)</small></div>
+    <div class="k">Как работаем <small>(3)</small></div>
     <div class="rows">
       <div class="r1"><b>(1) Знакомство</b><span>Рассказываете, как к вам сейчас записываются: услуги, цены, график</span><em>15 минут</em></div>
       <div class="r1"><b>(2) Бесплатное демо</b><span>Собираем сайт или бота с вашими данными и показываем вживую</span><em>1–2 дня</em></div>
-      <div class="r1"><b>(3) Запуск</b><span>Предоплата 50%, правки, подключаем домен и проверяем вместе с вами</span><em>1–3 дня</em></div>
-      <div class="r1"><b>(4) Неделя теста</b><span>Работает на реальных клиентах; всё нравится — оплачиваете остаток</span><em>7 дней</em></div>
+      <div class="r1"><b>(3) Оплата и запуск</b><span>Понравилось — оплачиваете, вносим правки, подключаем домен и запускаем</span><em>1–3 дня</em></div>
     </div>
   </div>
 </section>
@@ -184,7 +186,7 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
     <div class="k">Без риска <small>(3)</small></div>
     <div class="rows">
       <div class="r1"><b>Демо</b><span>С вашими услугами, ценами и фото — до любой оплаты</span><em>0 ₽</em></div>
-      <div class="r1"><b>Предоплата</b><span>Только после того, как демо понравилось</span><em>50%</em></div>
+      <div class="r1"><b>Оплата</b><span>Только если демо понравилось. Не понравилось — ничего не платите</span><em>после демо</em></div>
       <div class="r1"><b>Первым клиентам</b><span>Скидка в обмен на честный отзыв после запуска</span><em style="color:var(--red)">−30%</em></div>
     </div>
   </div>
@@ -201,12 +203,19 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
 </section>
 <div class="pv" id="pv" aria-hidden="true"><img alt=""></div>
 
+<section class="block pad">
+  <div class="idx">
+    <div class="k">Для кого <small>(10)</small></div>
+    <p class="niche">Салоны красоты, барбершопы, маникюр, автосервисы, ремонт обуви, ателье, кондитерские, массаж, клининг, фотографы<span class="ast">✳</span></p>
+  </div>
+</section>
+
 <section class="block pad" id="faq">
   <div class="idx">
     <div class="k">Вопросы <small>(6)</small></div>
     <div class="rows">
       <details><summary>Нужно ли разбираться в технике?</summary><p>Нет. Всё настраиваем сами и показываем, как менять цены и график. Это занимает около 10 минут.</p></details>
-      <details><summary>Что если мне не понравится?</summary><p>Демо бесплатное. Если после демо решили не продолжать, вы ничего не платите. После запуска есть неделя теста.</p></details>
+      <details><summary>Что если мне не понравится?</summary><p>Демо бесплатное. Если после демо решили не продолжать, вы ничего не платите.</p></details>
       <details><summary>Что нужно от меня?</summary><p>Список услуг с ценами, 5–10 фото работ и адрес. Можно просто переслать то, что есть в Instagram или на Картах.</p></details>
       <details><summary>Есть ли ежемесячная плата?</summary><p>Сайт и бот оплачиваются один раз. Поддержка — от 500 ₽ в месяц по желанию, от неё можно отказаться в любой момент.</p></details>
       <details><summary>У меня есть Instagram и VK. Зачем сайт?</summary><p>Соцсети видят те, кто вас уже знает. Сайт находят в Яндексе и Google люди, которые ищут «маникюр рядом» или «ремонт обуви + район».</p></details>
@@ -227,7 +236,8 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
       <a class="r1" href="https://max.ru/" target="_blank" rel="noopener"><b>MAX</b><span>Найдите нас по номеру</span><em>+7 905 952-07-27 ↗</em></a>
     </div>
   </div>
-  <div class="legal"><span>© 2026 BLINK® · сайты и боты для бизнеса · Москва и онлайн по всей России</span><span>Видео: Merlin Lightpainting, <a href="https://www.pexels.com/video/red-and-blue-lines-flowing-over-face-10740762/" target="_blank" rel="noopener">Pexels</a></span></div>
+  <div class="mark" aria-hidden="true">BLINK<sup>®</sup></div>
+  <div class="legal"><span>© 2026 BLINK® · сайты и боты для бизнеса · Москва и онлайн по всей России</span><span>Видео: Merlin Lightpainting, <a href="https://www.pexels.com/video/red-and-blue-lines-flowing-over-face-10740762/" target="_blank" rel="noopener">Pexels</a></span><a href="#top">Наверх ↑</a></div>
 </footer>
 
 <script>
