@@ -183,6 +183,11 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
 @media (max-width:760px){summary{font-size:21px}}
 
 /* ---------- footer ---------- */
+.rev{margin:0;display:flex;flex-direction:column;gap:20px;min-width:0}
+.rev blockquote{margin:0;font-family:var(--serif);font-size:clamp(28px,4.2vw,54px);line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+.rev figcaption{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;font-size:15px}
+.rev figcaption span{color:var(--grey)}
+.rev figcaption a{color:inherit}
 .foot{position:relative;overflow:hidden;background:var(--night);color:#fff;--grey:rgba(255,255,255,.62);--hair:rgba(255,255,255,.8);padding-block:120px calc(18px + env(safe-area-inset-bottom,0px))}
 .foot > canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:block}
 .foot > :not(canvas){position:relative;z-index:1}
@@ -331,6 +336,15 @@ details p{margin:0;padding:0 0 16px;color:var(--grey);max-width:640px;font-size:
   </div>
 </section>
 <div class="pv" id="pv" aria-hidden="true"><img alt=""></div>
+<section class="block pad" id="reviews">
+  <div class="idx">
+    <div class="k">Отзывы <small>(1)</small></div>
+    <figure class="rev">
+      <blockquote>«Большое спасибо Кириллу и студии BLINK за шикарную работу! Очень быстро, качественно и профессионально»</blockquote>
+      <figcaption><b>Руслан</b><span>мастерская «Подкаблучник» · <a href="https://k41705594-boop.github.io/podkabluchnik/" target="_blank" rel="noopener">смотреть сайт ↗</a></span></figcaption>
+    </figure>
+  </div>
+</section>
 <a class="fab" id="fab" href="https://wa.me/79059520727?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D0%BC%D0%BE%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0" target="_blank" rel="noopener">Написать в WhatsApp ↗</a>
 
 <section class="block pad">
